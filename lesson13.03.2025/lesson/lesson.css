@@ -1,0 +1,26 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+main{
+    /*margin: 5px 20px 5px 20px;*/
+    background-color: wheat;
+    padding: 0px 20px 0px 20px;
+}
+
+h1, h2, h3{
+    font-family: 'Times New Roman', Times, serif; /*Шрифт*/
+    line-height: normal; /* Высота строки */
+    font-weight: 900;/*Жирность шрифта*/
+    letter-spacing: 0px; /* Расстоние между буквами */
+    margin-top: 0px;
+}
+
+.first, .second{
+    color: crimson;
+}
+
+#third-header{
+    color: chocolate;
+}

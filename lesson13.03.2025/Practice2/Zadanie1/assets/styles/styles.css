@@ -1,0 +1,31 @@
+.main-list {
+    list-style: none;
+}
+
+.winter{
+    padding: 17px;
+}
+
+.winter li{
+    display: flex;
+    align-items: center;
+}
+
+.winter li::before{
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    background-image: url("/Users/aleksejermolin/Documents/Frontend/Web-BV312/lesson13.03.2025/Practice2/Zadanie1/assets/icons/winter_16.png");
+}
+
+.spring{
+    list-style: url("/Users/aleksejermolin/Documents/Frontend/Web-BV312/lesson13.03.2025/Practice2/Zadanie1/assets/icons/spring_16.png");
+}
+
+.summer{
+    list-style: url("/Users/aleksejermolin/Documents/Frontend/Web-BV312/lesson13.03.2025/Practice2/Zadanie1/assets/icons/summer_16.png");
+}
+
+.autumn{
+    list-style: url("/Users/aleksejermolin/Documents/Frontend/Web-BV312/lesson13.03.2025/Practice2/Zadanie1/assets/icons/autumn_16.png");
+}
